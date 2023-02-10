@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB386F752996F1E000795D6E /* Overlap_IntegralApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB386F742996F1E000795D6E /* Overlap_IntegralApp.swift */; };
+		AB386F772996F1E000795D6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB386F762996F1E000795D6E /* ContentView.swift */; };
+		AB386F792996F1E100795D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB386F782996F1E100795D6E /* Assets.xcassets */; };
+		AB386F7C2996F1E100795D6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB386F7B2996F1E100795D6E /* Preview Assets.xcassets */; };
+		AB386F872996F1E100795D6E /* Overlap_IntegralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB386F862996F1E100795D6E /* Overlap_IntegralTests.swift */; };
+		AB386F912996F1E100795D6E /* Overlap_IntegralUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB386F902996F1E100795D6E /* Overlap_IntegralUITests.swift */; };
+		AB386F932996F1E100795D6E /* Overlap_IntegralUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB386F922996F1E100795D6E /* Overlap_IntegralUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB386F832996F1E100795D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB386F692996F1E000795D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB386F702996F1E000795D6E;
+			remoteInfo = "Overlap Integral";
+		};
+		AB386F8D2996F1E100795D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB386F692996F1E000795D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB386F702996F1E000795D6E;
+			remoteInfo = "Overlap Integral";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB386F712996F1E000795D6E /* Overlap Integral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Overlap Integral.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB386F742996F1E000795D6E /* Overlap_IntegralApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlap_IntegralApp.swift; sourceTree = "<group>"; };
+		AB386F762996F1E000795D6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB386F782996F1E100795D6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB386F7B2996F1E100795D6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB386F7D2996F1E100795D6E /* Overlap_Integral.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Overlap_Integral.entitlements; sourceTree = "<group>"; };
+		AB386F822996F1E100795D6E /* Overlap IntegralTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Overlap IntegralTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB386F862996F1E100795D6E /* Overlap_IntegralTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlap_IntegralTests.swift; sourceTree = "<group>"; };
+		AB386F8C2996F1E100795D6E /* Overlap IntegralUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Overlap IntegralUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB386F902996F1E100795D6E /* Overlap_IntegralUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlap_IntegralUITests.swift; sourceTree = "<group>"; };
+		AB386F922996F1E100795D6E /* Overlap_IntegralUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlap_IntegralUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB386F6E2996F1E000795D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB386F7F2996F1E100795D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB386F892996F1E100795D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB386F682996F1E000795D6E = {
+			isa = PBXGroup;
+			children = (
+				AB386F732996F1E000795D6E /* Overlap Integral */,
+				AB386F852996F1E100795D6E /* Overlap IntegralTests */,
+				AB386F8F2996F1E100795D6E /* Overlap IntegralUITests */,
+				AB386F722996F1E000795D6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB386F722996F1E000795D6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB386F712996F1E000795D6E /* Overlap Integral.app */,
+				AB386F822996F1E100795D6E /* Overlap IntegralTests.xctest */,
+				AB386F8C2996F1E100795D6E /* Overlap IntegralUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB386F732996F1E000795D6E /* Overlap Integral */ = {
+			isa = PBXGroup;
+			children = (
+				AB386F742996F1E000795D6E /* Overlap_IntegralApp.swift */,
+				AB386F762996F1E000795D6E /* ContentView.swift */,
+				AB386F782996F1E100795D6E /* Assets.xcassets */,
+				AB386F7D2996F1E100795D6E /* Overlap_Integral.entitlements */,
+				AB386F7A2996F1E100795D6E /* Preview Content */,
+			);
+			path = "Overlap Integral";
+			sourceTree = "<group>";
+		};
+		AB386F7A2996F1E100795D6E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB386F7B2996F1E100795D6E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB386F852996F1E100795D6E /* Overlap IntegralTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB386F862996F1E100795D6E /* Overlap_IntegralTests.swift */,
+			);
+			path = "Overlap IntegralTests";
+			sourceTree = "<group>";
+		};
+		AB386F8F2996F1E100795D6E /* Overlap IntegralUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB386F902996F1E100795D6E /* Overlap_IntegralUITests.swift */,
+				AB386F922996F1E100795D6E /* Overlap_IntegralUITestsLaunchTests.swift */,
+			);
+			path = "Overlap IntegralUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB386F702996F1E000795D6E /* Overlap Integral */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB386F962996F1E100795D6E /* Build configuration list for PBXNativeTarget "Overlap Integral" */;
+			buildPhases = (
+				AB386F6D2996F1E000795D6E /* Sources */,
+				AB386F6E2996F1E000795D6E /* Frameworks */,
+				AB386F6F2996F1E000795D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Overlap Integral";
+			productName = "Overlap Integral";
+			productReference = AB386F712996F1E000795D6E /* Overlap Integral.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB386F812996F1E100795D6E /* Overlap IntegralTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB386F992996F1E100795D6E /* Build configuration list for PBXNativeTarget "Overlap IntegralTests" */;
+			buildPhases = (
+				AB386F7E2996F1E100795D6E /* Sources */,
+				AB386F7F2996F1E100795D6E /* Frameworks */,
+				AB386F802996F1E100795D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB386F842996F1E100795D6E /* PBXTargetDependency */,
+			);
+			name = "Overlap IntegralTests";
+			productName = "Overlap IntegralTests";
+			productReference = AB386F822996F1E100795D6E /* Overlap IntegralTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB386F8B2996F1E100795D6E /* Overlap IntegralUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB386F9C2996F1E100795D6E /* Build configuration list for PBXNativeTarget "Overlap IntegralUITests" */;
+			buildPhases = (
+				AB386F882996F1E100795D6E /* Sources */,
+				AB386F892996F1E100795D6E /* Frameworks */,
+				AB386F8A2996F1E100795D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB386F8E2996F1E100795D6E /* PBXTargetDependency */,
+			);
+			name = "Overlap IntegralUITests";
+			productName = "Overlap IntegralUITests";
+			productReference = AB386F8C2996F1E100795D6E /* Overlap IntegralUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB386F692996F1E000795D6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AB386F702996F1E000795D6E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AB386F812996F1E100795D6E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AB386F702996F1E000795D6E;
+					};
+					AB386F8B2996F1E100795D6E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AB386F702996F1E000795D6E;
+					};
+				};
+			};
+			buildConfigurationList = AB386F6C2996F1E000795D6E /* Build configuration list for PBXProject "Overlap Integral" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB386F682996F1E000795D6E;
+			productRefGroup = AB386F722996F1E000795D6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB386F702996F1E000795D6E /* Overlap Integral */,
+				AB386F812996F1E100795D6E /* Overlap IntegralTests */,
+				AB386F8B2996F1E100795D6E /* Overlap IntegralUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB386F6F2996F1E000795D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB386F7C2996F1E100795D6E /* Preview Assets.xcassets in Resources */,
+				AB386F792996F1E100795D6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB386F802996F1E100795D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB386F8A2996F1E100795D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB386F6D2996F1E000795D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB386F772996F1E000795D6E /* ContentView.swift in Sources */,
+				AB386F752996F1E000795D6E /* Overlap_IntegralApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB386F7E2996F1E100795D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB386F872996F1E100795D6E /* Overlap_IntegralTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB386F882996F1E100795D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB386F932996F1E100795D6E /* Overlap_IntegralUITestsLaunchTests.swift in Sources */,
+				AB386F912996F1E100795D6E /* Overlap_IntegralUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB386F842996F1E100795D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB386F702996F1E000795D6E /* Overlap Integral */;
+			targetProxy = AB386F832996F1E100795D6E /* PBXContainerItemProxy */;
+		};
+		AB386F8E2996F1E100795D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB386F702996F1E000795D6E /* Overlap Integral */;
+			targetProxy = AB386F8D2996F1E100795D6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB386F942996F1E100795D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB386F952996F1E100795D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AB386F972996F1E100795D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Overlap Integral/Overlap_Integral.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Overlap Integral/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TS.Overlap-Integral";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB386F982996F1E100795D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Overlap Integral/Overlap_Integral.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Overlap Integral/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TS.Overlap-Integral";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB386F9A2996F1E100795D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TS.Overlap-IntegralTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Overlap Integral.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Overlap Integral";
+			};
+			name = Debug;
+		};
+		AB386F9B2996F1E100795D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TS.Overlap-IntegralTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Overlap Integral.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Overlap Integral";
+			};
+			name = Release;
+		};
+		AB386F9D2996F1E100795D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TS.Overlap-IntegralUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Overlap Integral";
+			};
+			name = Debug;
+		};
+		AB386F9E2996F1E100795D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TS.Overlap-IntegralUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Overlap Integral";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB386F6C2996F1E000795D6E /* Build configuration list for PBXProject "Overlap Integral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB386F942996F1E100795D6E /* Debug */,
+				AB386F952996F1E100795D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB386F962996F1E100795D6E /* Build configuration list for PBXNativeTarget "Overlap Integral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB386F972996F1E100795D6E /* Debug */,
+				AB386F982996F1E100795D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB386F992996F1E100795D6E /* Build configuration list for PBXNativeTarget "Overlap IntegralTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB386F9A2996F1E100795D6E /* Debug */,
+				AB386F9B2996F1E100795D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB386F9C2996F1E100795D6E /* Build configuration list for PBXNativeTarget "Overlap IntegralUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB386F9D2996F1E100795D6E /* Debug */,
+				AB386F9E2996F1E100795D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB386F692996F1E000795D6E /* Project object */;
+}
